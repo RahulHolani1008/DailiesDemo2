@@ -1,1 +1,91 @@
-// app global css in SCSS form
+.text-dailies-blue{
+    color: #1F5F9F;
+}
+
+.text-dailies-green{
+    color: #15A375;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.bg-dailies-blue{
+    background-color: #1F5F9F;
+}
+
+.bg-facebook-blue{
+    background-color: #4267B2;
+}
+
+.bg-dailies-ltBlue{
+    background-color: #add8e3;
+}
+
+.fs--18{
+    font-size: 18px;
+}
+
+.main-login-page{
+    height: 100vh;
+    background: url('../assets/background_pattern_1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.create-student-page{
+    height: 100vh;
+    background: url('../assets/background_pattern_3.png'), url('../assets/background_pattern_2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right top;
+    background-size: 70%;
+}
+
+.main-card {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-card .main-card-row{
+    border-radius: 25px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.height-width-100per{
+    height: 100%;
+    width: 100%;
+}
+
+.button-radius{
+    border-radius: 20px;
+
+    button{
+        border-radius: 20px;
+    }
+}
+
+.button-fs-18 button{
+    font-size: 18px;
+}
+
+.social_logo {
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+    border-radius: 100%;
+    border: 1px solid #4267B2;
+    display: inline-block;
+}
+
+.fileinput-button {
+    width: 232px;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.base-image-input-default{
+    background: url('../assets/student_no_dp.png');
+}
