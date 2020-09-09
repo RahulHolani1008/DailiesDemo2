@@ -18,7 +18,7 @@
               :outlined="true"
               :isLabel="false"
               placeholder="John Doe"
-              class="full-width q-mb-xl q-mt-sm"
+              class="full-width q-mb-lg q-mt-sm"
             />
 
             <span class="text-grey-7 text-weight-bold fs--18">Date of Birth</span>
@@ -32,7 +32,7 @@
               class="full-width"
             />
             <p
-              class="text-grey q-mt-sm q-mb-xl fs--18 text-italic q-pr-xl"
+              class="text-grey q-mb-lg fs--18 text-italic q-pr-xl"
             >Birthday is used to recommend courses, we won't share this information with anyone.</p>
 
             <span

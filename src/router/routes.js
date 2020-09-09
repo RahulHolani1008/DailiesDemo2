@@ -1,11 +1,18 @@
-
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/Index.vue') }
-    ]
+    component: () => import('pages/Login.vue')
+  },
+
+  {
+    path: '/register',
+    component: () => import('pages/Register.vue')
+  },
+  {
+    path: '/create/student',
+    component: () => import('pages/CreateStudent.vue'),
+    props: true,
+    name: "CreateStudent"
   },
 
   // Always leave this as last one,

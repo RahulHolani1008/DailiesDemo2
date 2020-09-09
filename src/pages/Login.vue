@@ -2,13 +2,13 @@
   <div>
     <div class="main-login-page">
       <div class="main-card">
-        <div class="text-center text-h2 text-weight-bold q-mb-lg">
+        <div class="text-center text-h3 text-weight-bold q-my-md">
           <span class="text-dailies-blue">Dailies</span>
           <span class="text-dailies-green">Pods</span>
         </div>
         <div class="row main-card-row bg-white">
           <div class="col-6 q-px-xl">
-            <h4 class="text-weight-bold text-grey-9 q-mb-lg">Login</h4>
+            <h4 class="text-weight-bold text-grey-9 q-my-lg">Login</h4>
             <q-form @submit="onSubmit">
               <span class="text-grey-7 text-weight-bold">Email</span>
               <DTextField
@@ -17,7 +17,7 @@
                 :outlined="true"
                 :isLabel="false"
                 placeholder="john.doe@email.com"
-                class="full-width q-mb-xl q-mt-sm"
+                class="full-width q-mb-md q-mt-sm"
                 :rules="emailRules"
               />
 
@@ -29,12 +29,12 @@
                 label
                 :isPassword="true"
                 placeholder="* * * *"
-                class="full-width q-mt-sm"
+                class="full-width q-md-sm"
                 :rules="passwordRules"
               />
               <a
                 href="#"
-                class="float-right text-weight-bold text-grey-7 text-decoration-none q-mr-lg q-mt-sm"
+                class="float-right text-weight-bold text-grey-7 text-decoration-none q-mr-lg"
               >Forgot Password?</a>
               <DButton
                 label="Login"
@@ -51,7 +51,7 @@
               >OR LOGIN WITH</p>
             </div>
 
-            <div class="text-center q-mt-xl">
+            <div class="text-center q-mt-lg">
               <span class="social_logo">
                 <img src="../assets/google_logo.png" />
               </span>
@@ -61,7 +61,7 @@
               </span>
             </div>
 
-            <p class="fs--18 q-mt-xl">
+            <p class="fs--18 q-mt-lg">
               <span class="text-grey">Don't have an account?</span>
               <router-link to="/register" class="q-ml-md text-light-blue-9 text-weight-bold">Sign up</router-link>
             </p>

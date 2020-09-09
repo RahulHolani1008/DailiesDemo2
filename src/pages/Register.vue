@@ -2,13 +2,13 @@
   <div>
     <div class="main-login-page">
       <div class="main-card">
-        <div class="text-center text-h2 text-weight-bold q-mb-lg">
+        <div class="text-center text-h3 text-weight-bold q-mb-lg">
           <span class="text-dailies-blue">Dailies</span>
           <span class="text-dailies-green">Pods</span>
         </div>
         <div class="row main-card-row bg-white">
           <div class="col-6 q-px-xl">
-            <h4 class="text-weight-bold text-grey-9 q-mb-lg">Sign Up</h4>
+            <h4 class="text-weight-bold text-grey-9 q-my-lg">Sign Up</h4>
             <q-form @submit="onSubmit">
               <span class="text-grey-7 text-weight-bold">Adult Name</span>
               <DTextField
@@ -17,7 +17,7 @@
                 :outlined="true"
                 :isLabel="false"
                 placeholder="John Doe"
-                class="full-width q-mb-lg q-mt-sm"
+                class="full-width q-mt-sm"
                 :rules="nameRules"
               />
 
@@ -28,7 +28,7 @@
                 :outlined="true"
                 :isLabel="false"
                 placeholder="john.doe@email.com"
-                class="full-width q-mt-sm q-mb-lg"
+                class="full-width q-mt-sm"
                 :rules="emailRules"
               />
 
@@ -46,19 +46,19 @@
               <DButton
                 label="Sign Up"
                 textColor="white"
-                class="bg-dailies-blue q-mt-lg button-radius button-fs-18"
+                class="bg-dailies-blue q-mt-md button-radius button-fs-18"
                 type="submit"
               />
             </q-form>
 
-            <div class="q-mt-xl relative-position">
+            <div class="q-mt-lg relative-position">
               <q-separator inset />
               <p
                 class="text-center text-weight-bold text-grey login-with absolute-center bg-white q-px-lg"
               >OR SIGN UP WITH</p>
             </div>
 
-            <div class="text-center q-mt-xl">
+            <div class="text-center q-mt-lg">
               <span class="social_logo">
                 <img src="../assets/google_logo.png" />
               </span>
@@ -68,7 +68,7 @@
               </span>
             </div>
 
-            <p class="fs--18 q-mt-xl">
+            <p class="fs--18 q-mt-md">
               <span class="text-grey">Already have an account?</span>
               <router-link to="/" class="q-ml-md text-light-blue-9 text-weight-bold">Log in</router-link>
             </p>
