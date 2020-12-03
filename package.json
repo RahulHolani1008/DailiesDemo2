@@ -18,7 +18,7 @@
     "@quasar/app": "^2.0.0"
   },
   "browserslist": [
-    "10 Firefox versions",
+    "last 10 Firefox versions",
     "4 Edge versions",
     "7 Safari versions",
     "8 Android versions",
