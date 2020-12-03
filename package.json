@@ -18,14 +18,14 @@
     "@quasar/app": "^2.0.0"
   },
   "browserslist": [
-    "last 10 Firefox versions",
-    "last 4 Edge versions",
-    "last 7 Safari versions",
-    "last 8 Android versions",
-    "last 8 ChromeAndroid versions",
-    "last 8 FirefoxAndroid versions",
-    "last 10 iOS versions",
-    "last 5 Opera versions"
+    "10 Firefox versions",
+    "4 Edge versions",
+    "7 Safari versions",
+    "8 Android versions",
+    "8 ChromeAndroid versions",
+    "8 FirefoxAndroid versions",
+    "10 iOS versions",
+    "5 Opera versions"
   ],
   "engines": {
     "node": ">= 10.18.1",
